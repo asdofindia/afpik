@@ -10,21 +10,22 @@ const Headbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={afpilogo} alt="AFPI" />
-          </figure>
-          <figure className="image">
-            <img src={klogo} alt="Karnataka" />
-          </figure>
+          <h1>AFPI Karnataka</h1>
+          {/* <figure className="image"> */}
+          {/*   <img src={afpilogo} alt="AFPI" /> */}
+          {/* </figure> */}
+          {/* <figure className="image"> */}
+          {/*   <img src={klogo} alt="Karnataka" /> */}
+          {/* </figure> */}
         </Link>
       </div>
       <div className="navbar-end">
         <Link to="/about" className="navbar-item">
           About
         </Link>
-        <Link to="/journal" className="navbar-item">
-          Journal
-        </Link>
+          <a href="https://newsletter.afpikarnataka.in" className="navbar-item">
+          Newsletter
+        </a>
       </div>
     </div>
   </nav>
